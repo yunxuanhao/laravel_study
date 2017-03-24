@@ -4,4 +4,7 @@ Homestead.yaml
 Homestead.json
 .env
 public/css
-/.idea/workspace.xml
+.idea/workspace.xml
+.idea/Laravel.iml
+.idea/blade.xml
+.idea/modules.xml
