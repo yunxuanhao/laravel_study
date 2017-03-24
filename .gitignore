@@ -8,3 +8,5 @@ public/css
 .idea/Laravel.iml
 .idea/blade.xml
 .idea/modules.xml
+yarn.lock
+
