@@ -20,3 +20,4 @@ get('/help', 'StaticPagesController@help')->name('help');
 get('/about', 'StaticPagesController@about')->name('about');
 
 get('sign_up', 'UsersController@create')->name('sign_up');
+resource('users', 'UsersController');
