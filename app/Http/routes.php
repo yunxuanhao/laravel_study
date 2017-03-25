@@ -21,3 +21,7 @@ get('/about', 'StaticPagesController@about')->name('about');
 
 get('sign_up', 'UsersController@create')->name('sign_up');
 resource('users', 'UsersController');
+
+get('login', 'SessionsController@create')->name('login');
+post('login', 'SessionsController@store')->name('login');
+delete('logout', 'SessionsController@destroy')->name('logout');
